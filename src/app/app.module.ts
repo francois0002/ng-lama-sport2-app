@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { InscriptionComponent } from './pages/inscription/inscription.component';
+import { HomeLoginComponent } from './pages/home-login/home-login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    InscriptionComponent
+    InscriptionComponent,
+    HomeLoginComponent
   ],
   imports: [
     BrowserModule,
