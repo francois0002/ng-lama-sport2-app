@@ -1,8 +1,22 @@
-<h1 class="small-title">Créer un compte gratuitement</h1>
+<app-back-button [link]="'/InscriptionStep1'"></app-back-button>
 
-<p class="text">Ces informations seront visibles pour les autres joueurs de ton club</p>
 
+
+  <h1 class="small-title">Inscription</h1>
+
+
+<div class="div-content">
+  <p class="subtitles">Ces informations permettront aux autres joueurs de te contacter</p>
+  <br>
+<p class = "text">Comment t'appelles tu?</p>
+
+<div class="example-container">
+  <app-user-info-form></app-user-info-form>
+<br>
+
+<div class="next-button-container">
+  <a href="/InscriptionStep3"><button mat-flat-button class="next-button" style="color:#7AAEC4">Continuer</button></a>
+</div>
+<div class="div-content-bar">
 <app-progress-bar [currentStep]="currentStep"></app-progress-bar>
-<!-- Formulaire d'inscription - Étape 1 -->
-<h2>Étape 1 : Informations personnelles</h2>
-<!-- Formulaire ici -->
+</div>
