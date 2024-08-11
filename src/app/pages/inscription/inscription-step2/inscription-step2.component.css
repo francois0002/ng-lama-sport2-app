@@ -13,3 +13,14 @@
   margin-bottom: 20px;
   font-family: "CooperStyle";
 }
+
+
+.mat-mdc-form-field {
+  margin-top: 16px;
+}
+
+.text {
+  color: white;
+  font-family: "Poppins";
+  text-align: center;
+}

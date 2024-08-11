@@ -5,6 +5,11 @@
   src: url(assets/fonts/cooper-std/CooperBlack-Std.otf) format('opentype');
 }
 
+@font-face {
+  font-family: "Poppins";
+  src: url(assets/fonts/Poppins/Poppins-Regular.ttf) format('truetype');
+}
+
 html, body { height: 100%; }
 body { margin: 0; font-family: "CooperStyle", "Helvetica Neue", sans-serif; background-color: #7AAEC4; }
 
